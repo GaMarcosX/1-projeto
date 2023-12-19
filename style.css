@@ -80,7 +80,7 @@ body * {
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
-  transition: 0.6s;
+  transition: 0.3s;
 }
 
 .light #switch button {
@@ -154,6 +154,8 @@ ul li a:hover {
 
 #social a:hover {
   background: var(--highlight-color);
+  outline: 2px solid var(--highlight-color);
+  transition: 0.2s;
 }
 
 footer {
